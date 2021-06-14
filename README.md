@@ -15,7 +15,7 @@ The motives behind this are as follow:
  - Have super clean code to show recruiters/interviewers in the future
 
 ## Author
-**Sefath Chowdhury** - [linkedin](https://www.linkedin.com/in/callmesefath/)
+**Anuj Agrawal** - [linkedin](https://www.linkedin.com/in/anuj-agrawal-7104951b0/)
 
 ## Built With
 * [Angular](https://angularjs.org/) - The front-end framework used
