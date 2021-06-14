@@ -2,10 +2,10 @@
 A Full stack web development practice with MongoDB, Express.js, Angular.js, Node.js
 A task manager app the builds to do lists with basic crud implementation
 
-## Live Demo
+<!-- ## Live Demo
 Live Demo will be launched to Heroku by friday night, July 10th, 2020. 
 It's Friday night, and here it is: http://mytudo.herokuapp.com/
-Test users and all provided in navbar, or feel free to sign up!
+Test users and all provided in navbar, or feel free to sign up! -->
 
 ## Project Purpose
 The motives behind this are as follow:
@@ -15,7 +15,7 @@ The motives behind this are as follow:
  - Have super clean code to show recruiters/interviewers in the future
 
 ## Author
-**Sefath Chowdhury** - [linkedin](https://www.linkedin.com/in/callmesefath/)
+**Anuj Agrawal** - [linkedin](https://www.linkedin.com/in/anuj-agrawal-7104951b0/)
 
 ## Built With
 * [Angular](https://angularjs.org/) - The front-end framework used
