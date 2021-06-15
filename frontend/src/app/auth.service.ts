@@ -22,8 +22,8 @@ export class AuthService {
     )
   }
 
-  signup(email: string, password: string) {
-    return this.webReqService.signup(email, password).pipe(
+  signup(firstName:string,lastName:string,email: string, password: string) {
+    return this.webReqService.signup(firstName, lastName,email, password).pipe(
       shareReplay(),
       tap((res: HttpResponse<any>) => {
         // the auth tokens will be in the header of this response
@@ -81,3 +81,11 @@ getNewAccessToken() {
     )
   }
 }
+function firstName(firstName: any, lastName: any, email: string, password: string) {
+  throw new Error('Function not implemented.');
+}
+
+function lastName(firstName: (firstName: any, lastName: any, email: string, password: string) => void, lastName: any, email: string, password: string) {
+  throw new Error('Function not implemented.');
+}
+

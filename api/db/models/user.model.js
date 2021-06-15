@@ -8,6 +8,20 @@ const bcrypt = require('bcryptjs');
 const jwtSecret = "80r12a98n41d02o94m8234s12t34r31i40n33g";
 
 const UserSchema = new mongoose.Schema({
+    firstName: {
+        type: String, 
+        required: true, 
+        minlength: 1,
+        trim: true,
+        unique: true
+    },
+    lastName: {
+        type: String, 
+        required: true, 
+        minlength: 1,
+        trim: true,
+        unique: true
+    },
     email: {
         type: String, 
         required: true, 

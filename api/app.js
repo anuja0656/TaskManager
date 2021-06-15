@@ -327,6 +327,7 @@ app.post('/users/signup', (req, res) => {
         .header('x-access-token', authTokens.accessToken)
         .send(newUser);
     }).catch((err) => {
+        console.log(err)
         res.status(400).send(err);
     });
 });

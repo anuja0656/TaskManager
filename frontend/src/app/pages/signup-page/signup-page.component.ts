@@ -15,8 +15,8 @@ export class SignupPageComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  signupClick(email: string, password:string){
-    this.authService.signup(email, password).subscribe((res: HttpResponse<any>) => {
+  signupClick(firstName:string, lastNmae:string,email: string, password:string){
+    this.authService.signup(firstName,lastNmae,email, password).subscribe((res: HttpResponse<any>) => {
       console.log(res);
       this.router.navigate(['/lists']);
     });

@@ -6,7 +6,7 @@
         <input #listTitleInput class="input has-background-light is-medium" type="text" placeholder="Enter new list name..." (keydown.enter)="createNewList(listTitleInput.value)">
 <br><br>
     <div class="buttons is-right">
-      <button class="button has-text-grey" routerLink="../">Cancel</button>
+      <button class="button has-text-grey" routerLink="../lists">Cancel</button>
       <button class="button is-primary has-text-white" (click)="createNewList(listTitleInput.value)">Create</button>
     </div>
   </div>
