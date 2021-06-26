@@ -43,7 +43,14 @@ export class AuthService {
     localStorage.setItem('user-id', userId);
     localStorage.setItem('x-access-token', accessToken);
     localStorage.setItem('x-refresh-token', refreshToken);
+    // localStorage.setItem
   }
+
+//   checkLocalStoreage(){
+//     localStorage.getItem('user-id);
+//     localStorage.gettItem('x-access-token');
+//     localStorage.setItem('x-refresh-token', refreshToken);
+// }
 
   getAccessToken() {
     return localStorage.getItem('x-access-token');
