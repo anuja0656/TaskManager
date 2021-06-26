@@ -10,9 +10,9 @@ export class WebRequestService {
 
   constructor(private http: HttpClient) {
     //DEV URL
-    this.ROOT_URL = 'http://localhost:3000';
+    // this.ROOT_URL = 'http://localhost:3000';
     // this.ROOT_URL = 'https://mytudo.herokuapp.com';
-    // this.ROOT_URL='https://mysterious-bastion-37406.herokuapp.com/'
+    this.ROOT_URL='https://mysterious-bastion-37406.herokuapp.com/'
   }
 
   get(uri: string){
